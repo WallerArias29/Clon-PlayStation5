@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+.barra-negra{
+    width: 100%;
+    height: 36px;
+    background-color: black;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-sony{
+    width: 75px;
+    height: 36px;
+    margin-right: 20px;
+}
+
+.img-sony{
+    width: 75px;
+    height: 36px;
+    margin: 0 8px;
+}
+
+/* Empieza el Header */
+
+.Menu1{
+    width: 1920px;
+    height: 41px;
+    padding: 0px 0px 0px 20px;
+    display: flex;
+}
+
+.Contenedor_izq{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.play_icono{
+    display: flex;
+    padding-top: 4px;
+
+}
+
+.a_imagotipo_sony{
+    cursor: pointer;
+    color: #0070d1;
+
+}
+i.fab.fa-playstation::before{
+    font-size: 26px;
+}
+
+/*Menu izquierda */
+
+.container_ul{
+    width: 700px;
+    height: 40px;
+    display: flex;
+}
+
+.Menu1_ul{
+    width: 650px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 10;
+}
+
+.Menu1_ul li{
+    padding: 0px 12px;
+    padding-top: 9px;
+    letter-spacing: 1px;
+}
+
+li{
+    list-style: none; /*Eliminar viñetas*/
+    
+}
+
+li a{
+    
+    color: #585858;
+    padding: 0px 0px 5px 20px ;
+    text-decoration: none;
+    
+}
+
+li a:hover{
+    color: #0070d1;
+}
+
+
+
+/*Menu derecha */
+
+#Contenedor_der{
+    width: 90%;
+    height: 40px;
+    display: flex;
+}
+
+.texto-btn{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    margin-left: 1300px;
+}
+
+/*Btn_Menu derecha */
+
+
+.btn_inicio{
+    width: 129px;
+    height: 30px;
+    background-color: #363636;
+    border-radius: 30px;
+    margin-top: 1px;
+    margin-right: 7px;
+    display: flex;
+}
+
+.btn1_header{
+    width: auto;
+    height: 30px;
+    display: flex;
+    padding: 0px 0px;
+    margin-left: 14px;
+}
+
+.btn_inicio:hover{
+    background-color: #8a8a8a;
+}
+
+.text_btn1_header{
+    font-size: 15px;
+    color: white;
+
+}
+
+input{
+    width: 120px;
+    height: 30px;
+}
+
+/*Tercer seccion*/
+
+.seccion-tres{
+    width: 1570px;
+    height: 64px;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.logops5 img{
+    width: 200px;
+    height: 48px;
+}
+
+.Slide-menu{
+    width: 1570px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Slide-menu-li{
+    padding-top: 25px;
+
+}
+
+.Slide-menu-li-p{
+    padding-top: 25px;
+    color:#0172ce;
+}
+
+.Slide-menu-li-p a{
+    height: 30px;
+    display: flex;
+    border-bottom-color:#0172ce;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    color:#0172ce;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+}
+
+.Slide-menu-li a{
+    height: 30px;
+    display: flex;
+    border-bottom-color:white;
+    border-bottom-style: none;
+    border-bottom-width: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.Slide-menu-li a:hover{
+    border-bottom-color:#0172ce;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+
+/*Aca inicia el contenido*/
+/*Contenedor global y Banner principal*/
+
+#contenedor-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+
+.pagebanner{
+    width: 1920px;
+    height: 720px;
+    background-image: url("../Images/ps5-banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    
+}
+
+/*Información que esta sobre el banner principal*/
+
+.info_pagebanner{
+    width: 625.39px;
+    height: 56.75px;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.img_banner_p img{
+    width: 223.16px;
+    height: 56.75px;
+    display: flex;
+    cursor: default;
+}
+
+.caja_texto_global{
+    width: 625.39px;
+    height: 167px;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.texto_caja_texto_global{
+    width: 625.39px;
+    height: 68px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.texto_caja_texto_global h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 54px;
+}
+
+.button{
+    width: 625.39x;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.button a{
+    width: 137.03px;
+    height: 54px;
+    background-color: #0072ce;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button a:hover{
+    background-color: #00579e;
+}
+
+.texto-boton{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 18px;
+
+}
+ 
+
+/*Aca empieza la primera sección*/
+    
+.seccion_video{
+    width: 100%;
+    height: 1311.95px;
+    background-color: #eee;
+}
+
+.texto_seccion_video{
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    padding-top: 54px;
+    margin-bottom: 72px;
+}
+
+.text_seccion1{
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #1f1f1f;
+}
+
+.youtube_video1{
+    width: 100%;
+    height: 581.41px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.youtube_video1 iframe{
+    width: 1033.63px;
+    height: 581.41px;
+}
+
+/*Aca empieza el grid de los videos*/
+
+.container_videosgrid{
+    width: 1978px;
+    height: 208.55px;
+    margin-bottom: 72px;
+}
+
+.mini_videos-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 370.75px);
+    grid-template-rows: repeat(1, 208.55px);
+    grid-column-gap: 30px;
+    margin: 0px 207px 72px 207px;
+}
+
+.videosgrid{
+    width: 370.75px;
+    height: 208.55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.videos_descrip{
+    width: 100%;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.text_videos_descrip{
+    width: 1033.63px;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text_videos_descrip p{
+    color: #1f1f1f;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 18px;
+
+}
+
+p.sub_text_videos_descrip{
+    color: #1f1f1f;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Aca empieza la segunda sección*/
+
+.seccion_bf{
+    width: 100%;
+    height: 1400px;  
+}
+
+.seccion_beneficios{
+    width: 100%;
+    height: 1302.36px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.containerimg_beneficios{
+    width: 1563.94px;
+    height: 746.77px;
+    background-image: url(../Images/ps5-family-image-block-01-en-16sep20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 9px;
+    
+}
+
+.text_beneficios{
+    width: 100%;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.contain_text_beneficio{
+    width: 885.94px;
+    height: 149px;
+}
+
+.texto_velocidad{
+    font-size: 43px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+.contain_text_beneficios p{
+    margin-top: 18px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22.5px;
+    line-height: 33px;
+    color: #5f5f5f;
+    margin-top: 18px;
+}
+
+.container_grid_beneficios{
+    width: 100%;
+    height: 325.59px;
+}
+
+.grid_beneficios{
+    width: 886px;
+    height: 325.59px;
+    display: grid;
+    grid-template-columns: repeat(2, 429.5px);
+    grid-template-rows: repeat(1, 325.59px);
+    margin: 0px 546px 72px 546px;
+    column-gap: 27px;
+}
+
+.box_grid_beneficio{
+    width: 429.5px;
+    height: 325.59px;
+    
+}
+
+.img1_boxgrid{
+    width: 429.5px;
+    height: 164.59px;
+    margin-bottom: 36px;
+}
+
+.img1_boxgrid img{
+    width: 128.84px;
+    height: 128.59px;
+    margin-left: 35%;
+
+}
+
+.text1_boxgrid h4{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.text1_boxgrid p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 27px;
+}
+
+/*Aca empieza la tercera sección Beneficios*/
+
+.amazing_games{
+    width: 100%;
+    height: 1115.44px;
+}
+
+.container_img_amazing{
+    width: 100%;
+    height: 1115.44px;
+    background-image: url(../Images/img_juegos_asombrosos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 54px;
+}
+
+.grid1_amazing_games{
+    width: 100%;
+    height: 116px;
+    padding-top: 54px;
+}
+
+.contentgrid_layout_1{
+    display: grid;
+    width: 1564px;
+    height: 116px;
+    margin: 0px 207px 72px 207px;
+    grid-template-columns: repeat(12, 105.578px);
+    column-gap: 27px;
+    row-gap: 54px;
+    line-height: 27px;
+}
+
+.box_1{
+    width: 1033.63px;
+    height: 116px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 3;
+    grid-column-end: 11;
+}
+
+.box_1 div{
+    width: 1033.63px;
+    height: 65px;
+    text-align: center;   
+}
+
+.text_box_1{
+    width: 390.86px;
+    height: 52px;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    color: #f5f5f5;
+    margin-left: 31%;
+}
+
+.box_1 p{
+    font-size: 22.5px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #dfdfdf;
+}
+
+.contentgrid{
+    width: 100%;
+    height: 107px;
+}
+
+.contentgrid_layout_2{
+    width: 1564px;
+    height: 107px;
+    display: grid;
+    grid-template-columns: 512.328px 1024.66px 1fr 2fr;
+    row-gap: 54px;
+    column-gap: 27px;
+    margin: 0px 207px 72px 207px;
+}
+
+.iconogrid{
+    width: 512.33px;
+    height: 99.81px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconogrid img{
+    width: 100px;
+    height: 99.81px;
+    align-self: flex-end;
+}
+
+.box2{
+    width: 1024.66px;
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box2 h4{
+    color: #f5f5f5;
+    font-size: 28.125px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 18px;
+}
+
+.box2 p{
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+}
+
+/*Aca empieza la tercera sección Caracteristicas*/
+
+.caracteristicas{
+    width: 100%;
+    height: 1201px;
+    padding-top: 54px;
+}
+
+.text_box_2{
+    color: #1f1f1f;
+    font-size: 43.94px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 54px;
+    text-align: center;
+}
+
+.content_tab{
+    width: 100%;
+    height: 967px;
+}
